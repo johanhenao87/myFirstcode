@@ -20,8 +20,6 @@ function aNacimiento(year){
 var year = prompt("Ingresa tu año de nacimiento ");
 year = parseInt(year); 
 
-alert(saludo(nombre));
-alert(aNacimiento(year));
 document.getElementById("saludando").innerHTML = saludo(nombre);
 document.getElementById("edad").innerHTML = aNacimiento(year);
 
