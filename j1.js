@@ -8,4 +8,4 @@ function saludo(nombre) {
 
 var nombre = prompt("ingresa tu nombre");
 
-document.getElementById("mensaje").innerHTML = saludo(nombre);
+document.getElementById("saludando").innerHTML = saludo(nombre);
